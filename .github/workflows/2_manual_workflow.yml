@@ -1,0 +1,13 @@
+name: Mannual Workflow
+
+on:
+  workflow-dispatch:
+  
+jobs: 
+  second-workflow:
+    runs-on: ubuntu-latest
+
+
+  steps: 
+    - name: print name
+      run: echo "Hello world, this is faysal!"
