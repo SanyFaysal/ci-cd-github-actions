@@ -1,0 +1,18 @@
+name: CormJob Workflow
+
+on:
+  workflow_dispatch: 
+
+jobs: 
+  corn_job_workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: step one
+        run: echo "Alhamdulill🥰🥰"
+
+      - name: step two
+        run: echo "Hurrah ! Leader hoye gech🥳🥳"
+
+      - name: step three
+        run: echo "Dhur ! ar kam kaj valla🥱🥱"
